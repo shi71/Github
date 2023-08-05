@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.top-header {
+  width: 80%;
+  border-style: solid;
+  border-width: 4px;
+  margin:0 auto;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction:row;
+  justify-content: space-between;
+  border-radius: 25px;
+  border-color: brown;
+  background-color: bisque;
+}
+
+.navbar.sticky-top {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow when the header is fixed */
+  /* Add any other styles you want for the fixed header */
+}
+
+body{
+
+  background-image: url("../assets/images/unsplash1.jpg");
+  width:80%;
+  padding-left: 100px;
+  
+}
+
+
+/* Preference Animation CSS Style over bootstrap setting performed inside components, layouts etc */
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+.head{
+  padding-top: 3rem;
+  font-family: 'Great Vibes', cursive;}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
